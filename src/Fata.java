@@ -1,11 +1,11 @@
-public class Veterinar {
+public class Fata {
     private String nume;
     private int varsta;
     private String adresa;
     private int telefon;
     private String email;
 
-    Veterinar( String nume, int varsta, String adresa, int telefon, String email){
+    Fata( String nume, int varsta, String adresa, int telefon, String email){
         System.out.println(" Initializat ");
         this.nume=nume;
         this.varsta=varsta;
@@ -40,5 +40,6 @@ public class Veterinar {
     public String getEmail(String email){
         return this.email;
     }
+
 
 }
